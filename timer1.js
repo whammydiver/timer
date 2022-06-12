@@ -3,8 +3,7 @@ let timerArray = [];
 data = process.argv.slice(2);
 
 data.forEach((val) => {
-  val = Number(val)
-  timerArray.push(val);
+  timerArray.push(Number(val));
 });
 
 const timer = function(timer) {
